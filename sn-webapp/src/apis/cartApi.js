@@ -11,23 +11,24 @@ export default {
   },
    // home数据获取
   async getHomeData () {
-    let res = await fetch('http://localhost:3000/xiaomi')
+    // let res = await fetch('http://localhost:3000/xiaomi')
+    let res = await fetch('http://39.106.101.238:3000/xiaomi')
     let data = await res.json()
     return data
   },
   //classify数据获取
   async getClassifyData () {
-    let res = await fetch('http://localhost:3000/xiaomi/classify')
+    let res = await fetch('http://39.106.101.238:3000/xiaomi/classify')
     let data = await res.json()
     return data
   },
   async getClassData () {
-    let res = await fetch('http://localhost:3000/xiaomi/class')
+    let res = await fetch('http://39.106.101.238:3000/xiaomi/class')
     let data = await res.json()
     return data
   },
   async getCarData () {
-    let res = await fetch('http://localhost:3000/xiaomi/cart')
+    let res = await fetch('http://39.106.101.238:3000/xiaomi/cart')
     let data = await res.json()
     return data
   },

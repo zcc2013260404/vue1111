@@ -37,7 +37,7 @@
         overflow-y: auto;
         position: relative;
         height:calc(100vh);
-        overflow-y:scroll;
+        /*overflow-y:scroll;*/
     }
     ul::-webkit-scrollbar{
         display:none;
